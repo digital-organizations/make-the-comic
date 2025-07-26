@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>makethecomics. - Create Your Own Comics</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      user-select: none;
+    }
+    main {
+      flex: 1;
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .comic-creator {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      margin-bottom: 3rem;
+    }
+    .comic-creator h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+    .comic-creator p {
+      font-size: 1rem;
+      color: #666;
+    }
+    .gallery {
+      margin-bottom: 3rem;
+    }
+    .gallery h2 {
+      margin-bottom: 1rem;
+      color: #222;
+    }
+    .gallery-placeholder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      background: #ddd;
+      color: #777;
+      border-radius: 8px;
+      font-style: italic;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      main {
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    makethecomics.
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Create Your Own Comics Easily</h1>
+      <p>Unleash your creativity! Make comics with simple tools and share your stories with the world.</p>
+    </section>
+
+    <section class="comic-creator">
+      <h2>Comic Creator (Coming Soon)</h2>
+      <p>This is where you’ll create comics panel by panel with text, images, and characters.</p>
+    </section>
+
+    <section class="gallery">
+      <h2>Featured Comics</h2>
+      <div class="gallery-placeholder">Your comics will appear here.</div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 makethecomics. All rights reserved.
+  </footer>
+</body>
+</html>
